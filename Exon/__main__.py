@@ -306,7 +306,10 @@ def start(update: Update, context: CallbackContext):
         update.effective_message.reply_photo(
             START_IMG,
             caption="*Aʀᴀ Aʀᴀᴀ! \n\nI Aᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: `{}` ".format(
-                uptime, 
+                usr.first_name,
+                uptime,
+                sql.num_users(),
+                sql.num_chats(),
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
