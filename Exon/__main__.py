@@ -121,12 +121,10 @@ PM_START_TEXT = """
 ❆ *Bᴀᴋᴀᴀ {} !* [✨](https://te.legra.ph/file/ae20bae962958cc6719b7.png) 
 ❆ *I Aᴍ Mɪᴛsᴜʀɪ Kᴀɴʀᴏᴊɪ A Lᴏᴠᴇ Hᴀsʜɪʀᴀ Fʀᴏᴍ Dᴇᴍᴏɴs Sʟᴀʏᴇʀ Aɴɪᴍᴇ.*
 ✪ `I Wᴀɴᴛ Tᴏ Sᴘʀᴇᴀᴅ Lᴏᴠᴇ Hᴇʀᴇ, Bᴜᴛ Fɪʀsᴛ I Hᴀᴠᴇ Tᴏ Sᴘʀᴇᴀᴅ Pᴇᴀᴄᴇ Hᴇʀᴇ \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Sᴏ I Cᴀɴ Sᴀᴠᴇ Yᴏᴜ Aʟʟ Fʀᴏᴍ Dᴇᴍᴏɴs `
-*─────────────*
+*───────────────────*
  ➻ *Uᴘᴛɪᴍᴇ:* `{}`
- ➻ *Usᴇʀs:* `{}`
- ➻ *Chats:* `{}`
-*─────────────*
-✪ `Hɪᴛ` *Hᴇʟᴘ* `Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ` \n[➥]*:*\nFɪʀꜱᴛ Aᴅᴅ Mᴇ Iɴ Gʀᴏᴜᴘ Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ 
+*───────────────────*
+✪ `Hɪᴛ` */Hᴇʟᴘ* `Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ` \n[➥]*:*\nFɪʀꜱᴛ Aᴅᴅ Mᴇ Iɴ Gʀᴏᴜᴘ Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ 
 """
 
 
@@ -305,13 +303,10 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_photo(
+        update.effective_message.reply_photo(https://te.legra.ph/file/af07ec9ae8811edc26d49.jpg, 
             START_IMG,
-            caption="Hᴇʏ `{}`,\n\nI Aᴍ Aʟɪᴠᴇ Bᴀʙʏ !\n❆Uᴘᴛɪᴍᴇ: `{}` \n❆Usᴇʀs: `{}` \n❆Cʜᴀᴛs: `{}` ".format(
-                usr.first_name,
-                uptime,
-                sql.num_users(),
-                sql.num_chats(),
+            caption="*Aʀᴀ Aʀᴀᴀ! \n\nI Aᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: `{}`".format(
+                uptime, 
             ),
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
