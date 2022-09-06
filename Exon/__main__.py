@@ -305,7 +305,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="*Aʀᴀ Aʀᴀᴀ! \n\nI Aᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: `{}` ".format(
+            caption="Hᴇʏ `{}`,\n\nI Aᴍ Aʟɪᴠᴇ Bᴀʙʏ !\n❆Uᴘᴛɪᴍᴇ: `{}` \n❆Usᴇʀs: `{}` \n❆Cʜᴀᴛs: `{}` ".format(
                 usr.first_name,
                 uptime,
                 sql.num_users(),
