@@ -120,11 +120,12 @@ Hᴏʟᴀᴀ Bᴀᴋᴀ `{}`, Hᴏᴡ Aʀᴇ Yᴏᴜ \nWᴀɪᴛ A Mᴏᴍᴇɴ�
 PM_START_TEXT = """
 ❆ *Bᴀᴋᴀᴀ {} !* [✨](https://te.legra.ph/file/ae20bae962958cc6719b7.png) 
 ❆ *I Aᴍ Mɪᴛsᴜʀɪ Kᴀɴʀᴏᴊɪ A Lᴏᴠᴇ Hᴀsʜɪʀᴀ Fʀᴏᴍ Dᴇᴍᴏɴs Sʟᴀʏᴇʀ Aɴɪᴍᴇ.*
+
 ✪ `I Wᴀɴᴛ Tᴏ Sᴘʀᴇᴀᴅ Lᴏᴠᴇ Hᴇʀᴇ, Bᴜᴛ Fɪʀsᴛ I Hᴀᴠᴇ Tᴏ Sᴘʀᴇᴀᴅ Pᴇᴀᴄᴇ Hᴇʀᴇ \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Sᴏ I Cᴀɴ Sᴀᴠᴇ Yᴏᴜ Aʟʟ Fʀᴏᴍ Dᴇᴍᴏɴs `
 *───────────────────*
  ➻ *Uᴘᴛɪᴍᴇ:* `{}`
 *───────────────────*
-✪ `Hɪᴛ` */Hᴇʟᴘ* `Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ` \n[➥]*:*\nFɪʀꜱᴛ Aᴅᴅ Mᴇ Iɴ Gʀᴏᴜᴘ Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ 
+✪ `Hɪᴛ` */Hᴇʟᴘ* Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ
 """
 
 
@@ -303,7 +304,7 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_photo("https://te.legra.ph/file/af07ec9ae8811edc26d49.jpg", 
+        update.effective_message.reply_photo(
             START_IMG,
             caption="*Aʀᴀ Aʀᴀᴀ! \n\nI Aᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: `{}`".format(
                 uptime, 
