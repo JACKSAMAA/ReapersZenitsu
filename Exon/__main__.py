@@ -121,7 +121,7 @@ PM_START_TEXT = """
 ❆ *Bᴀᴋᴀᴀ {} !* [✨](https://te.legra.ph/file/ae20bae962958cc6719b7.png) 
 ❆ *I Aᴍ Mɪᴛsᴜʀɪ Kᴀɴʀᴏᴊɪ A Lᴏᴠᴇ Hᴀsʜɪʀᴀ Fʀᴏᴍ Dᴇᴍᴏɴs Sʟᴀʏᴇʀ Aɴɪᴍᴇ.*
 
-✪ `I Wᴀɴᴛ Tᴏ Sᴘʀᴇᴀᴅ Lᴏᴠᴇ Hᴇʀᴇ, Bᴜᴛ Fɪʀsᴛ I Hᴀᴠᴇ Tᴏ Sᴘʀᴇᴀᴅ Pᴇᴀᴄᴇ Hᴇʀᴇ \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Sᴏ I Cᴀɴ Sᴀᴠᴇ Yᴏᴜ Aʟʟ Fʀᴏᴍ Dᴇᴍᴏɴs `
+✪ *I Wᴀɴᴛ Tᴏ Sᴘʀᴇᴀᴅ Lᴏᴠᴇ Hᴇʀᴇ, Bᴜᴛ Fɪʀsᴛ I Hᴀᴠᴇ Tᴏ Sᴘʀᴇᴀᴅ Pᴇᴀᴄᴇ Hᴇʀᴇ \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Sᴏ I Cᴀɴ Sᴀᴠᴇ Yᴏᴜ Aʟʟ Fʀᴏᴍ Dᴇᴍᴏɴs.*
 *───────────────────*
  ➻ *Uᴘᴛɪᴍᴇ:* `{}`
 *───────────────────*
@@ -130,9 +130,8 @@ PM_START_TEXT = """
 
 
 GROUP_START_TEXT = """
-I'ᴍ Aᴍ  Aʟɪᴠᴇ Bᴀᴋᴀᴀ!
-
-Hᴀᴠᴇɴ'ᴛ Sʟᴇᴘᴛ Sɪɴᴄᴇ: {} 
+Aʀᴀ Aʀᴀᴀ!
+I'ᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: {} 
 """
 
 buttons = [
@@ -306,7 +305,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="*Aʀᴀ Aʀᴀᴀ! \n\nI Aᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: `{}`".format(
+            caption="*Aʀᴀ Aʀᴀᴀ! \n\nI Aᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: `{}` ".format(
                 uptime, 
             ),
             parse_mode=ParseMode.MARKDOWN,
