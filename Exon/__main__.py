@@ -109,64 +109,65 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪi~"
-START_MSG = "* I ᴀᴍ ᴡᴇʟʟ ᴀɴᴅ ᴀʟɪᴠᴇ ;)"
+HELP_MSG = "Cʟɪᴄᴋ Tʜᴇ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ Tᴏ Gᴇᴛ Hᴇʟᴘ Mᴇɴᴜ Ii~"
+START_MSG = "* I Aᴍ Wᴇʟʟ Aɴᴅ Aʟɪᴠᴇ Bᴀᴋᴀᴀ ;)"
 
 
 PM_START_TEX = """
-ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
+Hᴏʟᴀᴀ Bᴀᴋᴀ `{}`, Hᴏᴡ Aʀᴇ Yᴏᴜ \nWᴀɪᴛ A Mᴏᴍᴇɴᴛ Bᴀᴋᴀ . . . . 
 """
 
 PM_START_TEXT = """
-*ʜᴇʟʟᴏ {} !*
-✪ `ɪ ᴀᴍ  ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ \nᴡɪᴛʜ ᴜsᴇғᴜʟʟ ғᴇᴀᴛᴜʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛʜᴇɴ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀs ʙᴜᴅᴅʏ`
+❆ *Bᴀᴋᴀᴀ {} !* [✨](https://te.legra.ph/file/ae20bae962958cc6719b7.png) 
+❆ *I Aᴍ Mɪᴛsᴜʀɪ Kᴀɴʀᴏᴊɪ A Lᴏᴠᴇ Hᴀsʜɪʀᴀ Fʀᴏᴍ Dᴇᴍᴏɴs Sʟᴀʏᴇʀ Aɴɪᴍᴇ.*
+✪ `I Wᴀɴᴛ Tᴏ Sᴘʀᴇᴀᴅ Lᴏᴠᴇ Hᴇʀᴇ, Bᴜᴛ Fɪʀsᴛ I Hᴀᴠᴇ Tᴏ Sᴘʀᴇᴀᴅ Pᴇᴀᴄᴇ Hᴇʀᴇ \nAᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘs Sᴏ I Cᴀɴ Sᴀᴠᴇ Yᴏᴜ Aʟʟ Fʀᴏᴍ Dᴇᴍᴏɴs `
 *─────────────*
- ➻ *ᴜᴘᴛɪᴍᴇ:* `{}`
- ➻ *ᴜsᴇʀs:* `{}`
- ➻ *chats:* `{}`
+ ➻ *Uᴘᴛɪᴍᴇ:* `{}`
+ ➻ *Usᴇʀs:* `{}`
+ ➻ *Chats:* `{}`
 *─────────────*
-✪ `ʜɪᴛ` *ʜᴇʟᴘ* `ᴛᴏ sᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴜᴅᴅʏ` \n[➥]*:*\nғɪʀꜱᴛ ᴀᴅᴅ ᴍᴇ ɪɴ ɢʀᴏᴜᴘ ᴛʜᴇɴ ꜱᴇᴇ ᴍʏ ᴘᴏᴡᴇʀ ʙᴀʙʏ 
+✪ `Hɪᴛ` *Hᴇʟᴘ* `Tᴏ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ` \n[➥]*:*\nFɪʀꜱᴛ Aᴅᴅ Mᴇ Iɴ Gʀᴏᴜᴘ Tʜᴇɴ Sᴇᴇ Mʏ Pᴏᴡᴇʀs Bᴀᴋᴀᴀ 
 """
 
 
 GROUP_START_TEXT = """
-I'm ᴀᴍ  ᴀʟɪᴠᴇ  ʙᴀʙʏ !
+I'ᴍ Aᴍ  Aʟɪᴠᴇ Bᴀᴋᴀᴀ!
 
-ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ: {} 
+Hᴀᴠᴇɴ'ᴛ Sʟᴇᴘᴛ Sɪɴᴄᴇ: {} 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ➕ ", url=f"t.me/{BOT_USERNAME}?startgroup=true"
+            text="➕ Aᴅᴅ Mᴇ Eʟsᴇ Yᴏᴜ Gᴀʏ ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
-        InlineKeyboardButton(text=" ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ 🌐", url="https://github.com/TEAM-ABG/ExonRobot"
+            text="Mʏ Mᴀsᴛᴇʀ", url="https://t.me/Imjeansama/3"
         ),
     ],
     [
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ 🥂", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
         InlineKeyboardButton(
-            text="ᴜᴘᴅᴀᴛᴇs 🏃‍♂️", url=f"https://t.me/{UPDATES_CHANNEL}"
+            text="Uᴘᴅᴀᴛᴇs", url=f"https://t.me/{UPDATES_CHANNEL}"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-*ᴍᴀɪɴ* ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:
-⍟ /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
-⍟ /help <module name>: ᴘᴍ ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
-⍟ /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
+*Mᴀɪɴ* Cᴏᴍᴍᴀɴᴅs Aᴠᴀɪʟᴀʙʟᴇ:
+⍟ /help: PM's Yᴏᴜ Tʜɪs Mᴇssᴀɢᴇ.
+⍟ /help <module name>: Pᴍ Yᴏᴜ Iɴғᴏ Aʙᴏᴜᴛ Tʜᴀᴛ Mᴏᴅᴜʟᴇ.
+⍟ /donate: Iɴғᴏʀᴍᴀᴛɪᴏɴ Oɴ Hᴏᴡ Tᴏ Dᴏɴᴀᴛᴇ!
 ⍟ /settings:
-   ↣ ɪɴ ᴘᴍ: ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
-   ↣ ɪɴ ᴀ ɢʀᴏᴜᴘ: ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ  sᴇᴛᴛɪɴɢs.
+   ↣ Iɴ Pᴍ: Wɪʟʟ Sᴇɴᴅ Yᴏᴜ Yᴏᴜʀ Sᴇᴛᴛɪɴɢs Fᴏʀ Aʟʟ Sᴜᴘᴘᴏʀᴛᴇᴅ Mᴏᴅᴜʟᴇs.
+   ↣ Iɴ A Gʀᴏᴜᴘ: Wɪʟʟ Rᴇᴅɪʀᴇᴄᴛ Yᴏᴜ Tᴏ Pᴍ, Wɪᴛʜ Aʟʟ Tʜᴀᴛ Cʜᴀᴛ  Sᴇᴛᴛɪɴɢs.
 """
 
-DONATE_STRING = """ᴊᴜsᴛ sᴜᴘᴘᴏʀᴛ ᴜs, ᴡᴇ ᴡɪʟʟ ʙᴇ ᴍᴏʀᴇ ᴛʜᴀɴ ʜᴀᴘᴘʏ"""
+DONATE_STRING = """Jᴜsᴛ Sᴜᴘᴘᴏʀᴛ Us, Wᴇ Wɪʟʟ Bᴇ Mᴏʀᴇ Tʜᴀɴ Hᴀᴘᴘʏ"""
 
 
 IMPORTED = {}
@@ -281,15 +282,15 @@ def start(update: Update, context: CallbackContext):
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
             time.sleep(0.4)
-            lol.edit_text("🎊")
+            lol.edit_text("💞")
             time.sleep(0.5)
-            lol.edit_text("⚡")
+            lol.edit_text("❤")
             time.sleep(0.3)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            lol.edit_text("Sᴛᴀʀᴛɪɴɢ... ")
             time.sleep(0.4)
             lol.delete()
             update.effective_message.reply_sticker(
-                "CAACAgUAAx0CUgguZAABARdrYwt_f9vFYZop5n-EGGa80vLar9AAAjsIAAKagolX-O0V64tvzK8pBA"
+                "CAACAgUAAxkBAAEFxLljFwQv0W7lQXmc0FjqfInBTqYmJAACZQEAAj1ooFfprA0CYUsn0SkE"
             )
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
@@ -306,7 +307,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` \n➥ᴜsᴇʀs: `{}` \n➥ᴄʜᴀᴛs: `{}` ".format(
+            caption="Hᴇʏ `{}`,\n\nI Aᴍ Aʟɪᴠᴇ Bᴀʙʏ !\n❆Uᴘᴛɪᴍᴇ: `{}` \n❆Usᴇʀs: `{}` \n❆Cʜᴀᴛs: `{}` ".format(
                 usr.first_name,
                 uptime,
                 sql.num_users(),
@@ -317,21 +318,21 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ꜱᴜᴘᴘᴏʀᴛ",
+                            text="Sᴜᴘᴘᴏʀᴛ",
                             url=f"https://t.me/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇꜱ",
+                            text="Uᴘᴅᴀᴛᴇꜱ",
                             url=f"https://t.me/{UPDATES_CHANNEL}",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴡɴᴇʀ",
+                            text="Mᴀsᴛᴇʀ",
                             url=f"https://t.me/{OWNER_USERNAME}",
                         ),
                         InlineKeyboardButton(
-                            text="ᴄʟᴏsᴇ",
+                            text="Cʟᴏsᴇ",
                             callback_data="close_",
                         ),
                     ],
