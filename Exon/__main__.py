@@ -303,7 +303,7 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_photo("https://te.legra.ph/file/af07ec9ae8811edc26d49.jpg"
+        update.effective_message.reply_photo("https://te.legra.ph/file/af07ec9ae8811edc26d49.jpg", 
             START_IMG,
             caption="*Aʀᴀ Aʀᴀᴀ! \n\nI Aᴍ Aʟɪᴠᴇ Sɪɴᴄᴇ: `{}`".format(
                 uptime, 
