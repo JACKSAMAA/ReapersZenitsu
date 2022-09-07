@@ -24,7 +24,6 @@ SOFTWARE.
 
 
 import asyncio
-import random
 from sys import version_info
 
 from pyrogram import __version__ as pver
@@ -33,7 +32,6 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as lver
 from telethon import __version__ as tver
 
-from ABG.helper import PHOTO
 from Exon import BOT_NAME
 from Exon import BOT_USERNAME as fuck
 from Exon import OWNER_USERNAME, SUPPORT_CHAT, UPDATES_CHANNEL, pgram
@@ -63,7 +61,7 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.1)
     await m.reply_photo(
-        random.choice(PHOTO),
+        reply.PHOTO(https://telegra.ph/file/45bdde838d8ba044de209.jpg), 
         caption=f"""**Hᴇʏ, I Aᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
 ❆ **Mʏ Mᴀsᴛᴇʀ :** [𝗝 𝗘 𝗔 𝗡](https://t.me/{OWNER_USERNAME})
