@@ -61,7 +61,7 @@ async def restart(client, m: Message):
     await accha.delete()
     await asyncio.sleep(0.1)
     await m.reply_photo(
-        reply.PHOTO(https://telegra.ph/file/45bdde838d8ba044de209.jpg)
+        PHOTO = "https://telegra.ph/file/45bdde838d8ba044de209.jpg"), 
         caption=f"""**Hᴇʏ, I Aᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
 ❆ **Mʏ Mᴀsᴛᴇʀ :** [𝗝 𝗘 𝗔 𝗡](https://t.me/{OWNER_USERNAME})
