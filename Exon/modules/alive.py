@@ -24,7 +24,6 @@ SOFTWARE.
 
 
 import asyncio
-import random
 from sys import version_info
 
 from pyrogram import __version__ as pver
@@ -40,12 +39,12 @@ from Exon import OWNER_USERNAME, SUPPORT_CHAT, UPDATES_CHANNEL, pgram
 
 ASAU = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATES_CHANNEL}"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+        InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ",
+            text="Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ",
             url=f"https://t.me/{fuck}?startgroup=true",
         ),
     ],
@@ -57,25 +56,22 @@ async def restart(client, m: Message):
     await m.delete()
     accha = await m.reply("⚡")
     await asyncio.sleep(1)
-    await accha.edit("ᴀʟɪᴠɪɴɢ..")
+    await accha.edit("Aʟɪᴠɪɴɢ..")
     await asyncio.sleep(0.1)
-    await accha.edit("ᴀʟɪᴠɪɴɢ ʙᴀʙʏ ....")
+    await accha.edit("Aʟɪᴠɪɴɢ Bᴀʙʏ ....")
     await accha.delete()
     await asyncio.sleep(0.1)
-    umm = await m.reply_sticker(
-        "CAACAgUAAx0CZIiVngABBHAzYwdi9OIVTQ7DYELAqMl46fgnK4wAAjsIAAKagolX-O0V64tvzK8pBA"
+    umm = await m.reply_photo(
+        "https://telegra.ph/file/5e703200349788976daec.jpg"
     )
-    await asyncio.sleep(0.1)
-    await m.reply_photo(
-        random.choice(PHOTO),
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
+        caption=f"""**Hᴇʏ, I Aᴍ {BOT_NAME}**
      ▱▱▱▱▱▱▱▱▱▱▱▱
-» **ᴍʏ ᴏᴡɴᴇʀ :** [𝐀ʙɪsʜɴᴏɪ](https://t.me/{OWNER_USERNAME})
-» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
-» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
-» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
-» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
-⍟ **ʙᴏᴛ ᴠᴇʀꜱɪᴏɴ :** `1.0`
+❆ **Mʏ Mᴀsᴛᴇʀ :** [J E A N](https://t.me/{OWNER_USERNAME})
+❆ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{lver}`
+❆ **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{tver}`
+❆ **Pʏʀᴏɢʀᴀᴍ Vᴇʀsɪᴏɴ :** `{pver}`
+❆ **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
+❆ **Bᴏᴛ Vᴇʀꜱɪᴏɴ :** `1.0`
      ▱▱▱▱▱▱▱▱▱▱▱▱""",
         reply_markup=InlineKeyboardMarkup(ASAU),
     )
