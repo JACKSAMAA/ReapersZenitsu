@@ -64,7 +64,8 @@ async def restart(client, m: Message):
     umm = await m.reply_photo(
         "https://telegra.ph/file/5e703200349788976daec.jpg"
     )
-        caption=f"**Hᴇʏ, I Aᴍ {BOT_NAME}**", 
+        caption=f"""**Hᴇʏ, I Aᴍ {BOT_NAME}**
+"""
      ▱▱▱▱▱▱▱▱▱▱▱▱
 ❆ **Mʏ Mᴀsᴛᴇʀ :** [J E A N](https://t.me/{OWNER_USERNAME})
 ❆ **Lɪʙʀᴀʀʏ Vᴇʀsɪᴏɴ :** `{lver}`
